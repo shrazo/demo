@@ -1,0 +1,17 @@
+{% extends 'temp/base.html' %}
+
+{% block main %}
+
+{% if blog_list %}
+  {% for blog in blog_list %}
+    <h3>{{ blog.title }}</h3><br>
+    <small>{{ blog.created_at }}</small>
+    {{ blog.content|truncatewords:"10" }}
+    <hr>
+  {% endfor %}
+  {% else %}
+  <h4>Sorry, no post found.</h4>
+{% endif %}
+
+{% endblock main %}
+
