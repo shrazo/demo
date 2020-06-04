@@ -32,6 +32,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
 
+    # 3rd party
+    'ckeditor',
+    'ckeditor_uploader',
+
     # 'temp',
     'blog',
 ]
@@ -129,5 +133,35 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # django_heroku.settings(locals())
 
-
-
+# CKEditor
+CKEDITOR_UPLOAD_PATH = "uploads/"
+CKEDITOR_CONFIGS = {
+    'default':
+    {
+        'toolbar': 'Custom',
+        'height': 500,
+        'toolbar_Custom':
+        [
+            ['Styles', 'Format', 'Font', 'FontSize', 'Bold', 'Italic', 'Underline',
+                'Strike', 'SpellChecker', 'Undo', 'Redo'],
+            ['Link', 'Unlink', 'Anchor'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-',
+                'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Image', 'Flash', 'Table', 'HorizontalRule'],
+            ['TextColor', 'BGColor'],
+            ['Smiley', 'SpecialChar'],
+            ['CodeSnippet'],
+            ['RemoveFormat', 'Source', 'preview'],
+            ['Maximize', 'ShowBlocks'],
+        ],
+        'extraPlugins': ['codesnippet', 'preview'],
+    },
+    'special':
+    {
+        'toolbar': 'Special',
+        'toolbar_Special':
+        [
+            ['Bold'],
+        ],
+    }
+}

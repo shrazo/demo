@@ -8,7 +8,7 @@
   <h3><a href="{% url 'blog_detail' post.id %}">{{ post.title }}</a></h3>
   <small>by {{ post.author }} at {{ post.created_at|naturalday }}</small>
   <hr>
-  {{ post.content|truncatewords:"10" }}
+  {{ post.content|safe|truncatewords:"10" }}
   {% endfor %}
 {% else %}
 <h2>Sorry, no post yet...</h2>

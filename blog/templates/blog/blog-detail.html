@@ -7,7 +7,7 @@
   <h3>{{ post.title }}</h3>
   <small>by {{ post.author }} at {{ post.created_at|naturalday }}</small>
   <hr>
-  {{ post.content }}
+  {{ post.content|safe }}
   
 {% else %}
 
