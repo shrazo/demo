@@ -17,7 +17,8 @@ SECRET_KEY = os.environ.get(
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True 
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False' 
-ALLOWED_HOSTS = ['https://intense-plateau-52511.herokuapp.com/',
+# DEBUG = False 
+ALLOWED_HOSTS = ['intense-plateau-52511.herokuapp.com/',
                  'intense-plateau-52511.herokuapp.com', '127.0.0.1']
 
 # Application definition
@@ -29,8 +30,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
 
-    'temp',
+    # 'temp',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -125,4 +128,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # django_heroku.settings(locals())
+
+
 

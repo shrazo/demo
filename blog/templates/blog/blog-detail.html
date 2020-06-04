@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+{% load humanize %}
+{% block content %}
+
+{% if post %}
+  
+  <h3>{{ post.title }}</h3>
+  <small>by {{ post.author }} at {{ post.created_at|naturalday }}</small>
+  <hr>
+  {{ post.content }}
+  
+{% else %}
+
+<div class="alert alert-danger" role="alert">
+  Requested post does not exist.
+</div>
+
+{% endif %}
+
+{% endblock content %}
