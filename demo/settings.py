@@ -170,6 +170,6 @@ CKEDITOR_CONFIGS = {
 
 # Filesystem Storage
 
-# DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
-# DROPBOX_OAUTH2_TOKEN = '3w7yDITqkAwAAAAAAAAF-bDHTWfffd0YRdg4fz99JtZjrq3ZWfJG11anh1c6k4Yu'
+DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
+DROPBOX_OAUTH2_TOKEN = '3w7yDITqkAwAAAAAAAAF-bDHTWfffd0YRdg4fz99JtZjrq3ZWfJG11anh1c6k4Yu'
 
