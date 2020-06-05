@@ -7,6 +7,10 @@
   <h3>{{ post.title }}</h3>
   <small>by {{ post.author }} at {{ post.created_at|naturalday }}</small>
   <hr>
+  <br>
+  {% if post.featured_image %}
+  <img class="img-thumbnail rounded mx-auto d-bloc" src="{{ post.featured_image.url }}" alt="{{ post.title }}" width="50%">
+  {% endif %}
   {{ post.content|safe }}
   
 {% else %}

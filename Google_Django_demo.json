@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rapid-bricolage-255809",
+  "private_key_id": "70bbd90d5164fd1bd160ca3c1da653b252356c4d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQChZTZ/H79XzVhc\nUNeegb/O9bLFfR5cSLpHgvgWc+M9z5l3Mh3ByTrtsG2cJJbo2Eegy4EdJFiX2esd\nDG62yaH8yMYE3PIBH30RtE3lvUlOCTQJd/ep6sKPmwvFb7A+NCSshW04hNIqvHLy\n3oDrutxuqYQCuKc6sJjx4BJd4cwK2uyV/JNCgaYq54WSKV07ATLK1NqWIgxf2c1N\njsbpMCl1PFCtqrNhObZv6T62qhGrbV4pRO/2SM9X+/NCAyJ8xRuSfIrS11Zn2/b2\neH+BBVcSkyiz8clIdHjAhpsdLtaLtJyiTZ/pC/c5vTu2kEqmW8PmMJmr4tnCw4Vl\nVZgvvPunAgMBAAECggEAAwP5mzF0KUdQbdUi2jbRZyQHFZKLZS0Esf5b9UtwBQEi\nfGwmyy6f174Spja2zR3xZKs4u9sofpnXP0Eytl6ZFLiJnqCkMuosM477X54ERx17\n5+tiaL3Wqck7VJKMJ/VgdArAKiytIphHy4rlvMHOiZDIQybBFSMkkGxf23ozDkbW\nP/h9vIt8z6mdbadIYdhHzhZ0i5/FEDawOI9+0jl/s4jbXDL0m38gaGwJSr0IAy8N\nNi0ppBE4fxZgF2i8cBiSa2YVGNVKwixulTaj5QeQdG1TVdXWECvRPXM/TrrRTzSv\nvZMeYTMxmd5l82Tfwpu88oE6a8jEnTL644pnts/I+QKBgQDgJRAEGM93ILdnI9IZ\nBS3uru4Dd8VYzUpUs1tGafwFB6IOlYv/O1OmQG0TaHdFTluVqxwl0bjXfkJZvmWU\nn4ur7p3xZflrERkHLf7K/gKJwbvHvOs2W9oLdrd/XbkAvxhkBzGEO9CtJI+Xa+0e\n9inEfwM8Zn+1+LrJdsYSQaPmbwKBgQC4VSwtGpi1OmSTPgC0w9nR/LJWUWmf0b/8\n427mrwM8kXHuP1uvxIewvLhVyvFO+/IG9J7zEkxShS9ez9sNHYKARFOScHG1gwsd\nbvLwr90scTASbWzT8R+D6npiGmCbXFfePDlIPtR4livnBtUa3Ln7ls6sZkaE6B6q\n44X1G3caSQKBgExXMzJCBP8s7Go7gAY3hmJhv/z8YQGSwftBLxg3ZreL1v0ioBDo\n8t+P19ahYOYA/x5lreuPl2YFwbFxMIXDJT4EwlSCh8WYiC6y0rHue4zRqBQqWu4j\nsIrw/yRpFmaTr0n6TTodaUBfUGyhPJyr+KPNIpwCyQKAWZXeVy3Gn30PAoGAYiuC\nPnc2svXpUH2p9JuFqw7wj4YGQcZ8gBtEGflFOQGg8qitlNuPBHJNnetaPp1xlYC8\nEmpBWYVy6AS8/awkr1k0RP47oNasmb1YBxUyLpQNbRL37ZwyE5hSG2M+5h708PeT\n7kT/9UTNFtoNrqO1LSdw5GIH1oqkopBP7Gz3LnkCgYArG4cvVpEB83F+24RLnSUb\na/KEPqsl4a9E5Q0KlIMbvA4f3dYYy3U9WshtqXFIvjW2pGFM5b0a9dnxL4L/bWqX\n5P/qilW/150c8zjztai6nOWYJ2gVFjCb/Gb/VDQg56fvAXNcrujfa5rzfcTZeREQ\nBCkLSeqDSWJFkvfmftEo/Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "django-demo@rapid-bricolage-255809.iam.gserviceaccount.com",
+  "client_id": "110202648443909270840",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/django-demo%40rapid-bricolage-255809.iam.gserviceaccount.com"
+}

@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     # 3rd party
     'ckeditor',
     'ckeditor_uploader',
+    'django_cleanup',
 
     # 'temp',
     'blog',
@@ -70,7 +71,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'demo.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
@@ -123,6 +123,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/' 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 # DATABASES
 db_from_env = dj_database_url.config(conn_max_age=500)
@@ -165,3 +167,10 @@ CKEDITOR_CONFIGS = {
         ],
     }
 }
+
+
+# Filesystem Storage
+
+# DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
+# DROPBOX_OAUTH2_TOKEN = '3w7yDITqkAwAAAAAAAAF-bDHTWfffd0YRdg4fz99JtZjrq3ZWfJG11anh1c6k4Yu'
+
